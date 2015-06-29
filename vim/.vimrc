@@ -57,8 +57,9 @@ filetype on
 syntax on
 
 set number
-set relativenumber
 
+" Used for faster navigation, as demonstrated at RailsCampAU 2015
+set relativenumber 
 
 " bits pinched from:
 " https://github.com/rtomayko/dotfiles/blob/rtomayko/.vimrc
