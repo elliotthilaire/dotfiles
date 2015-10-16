@@ -8,3 +8,5 @@ if test -z $rvm_bin_path
   exec bash --login -c "exec fish" ^&1
 end
 
+# used by tmuxinator
+set --export EDITOR vim
