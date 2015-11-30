@@ -1,5 +1,12 @@
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+### Ruby Version Manager
+PATH=$PATH:$HOME/.rvm/bin 
 
-### Added by the Heroku Toolbelt
+
+### Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+
+### Node Version Manager
+export NVM_DIR=“$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
