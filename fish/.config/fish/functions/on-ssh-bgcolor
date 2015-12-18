@@ -1,0 +1,8 @@
+tell application "iTerm"
+  tell the current terminal
+    tell the current session
+      set background color to {10000,0,0}
+    end tell
+  end tell
+end tell
+
