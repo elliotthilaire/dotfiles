@@ -1,3 +1,0 @@
-function sublime
-  subl .
-end
