@@ -59,7 +59,7 @@ syntax on
 set number
 
 " Used for faster navigation, as demonstrated at RailsCampAU 2015
-set relativenumber 
+set relativenumber
 
 " bits pinched from:
 " https://github.com/rtomayko/dotfiles/blob/rtomayko/.vimrc
@@ -70,6 +70,12 @@ set relativenumber
 
 set list listchars=trail:.,tab:>.
 highlight SpecialKey ctermfg=DarkGray ctermbg=Black
+
+" --------------------------------------------------------------------------
+"  Trim Trailing Whitespace on save
+" --------------------------------------------------------------------------
+
+autocmd BufWritePre * :%s/\s\+$//e
 
 " --------------------------------------------------------------------------
 " Visual Cues
