@@ -1,0 +1,40 @@
+
+# Unix
+brew "ctags"
+brew "git"
+brew "openssl"
+brew "reattach-to-user-namespace"
+brew "the_silver_searcher"
+brew "tmux"
+brew "vim"
+brew "fish"
+brew "bash"
+brew "bash-completion"
+brew "ncdu"
+brew "autojump"
+brew "stow"
+brew "aria2"
+
+# Ruby
+brew "chruby"
+brew "ruby-build"
+ 
+# Databases
+brew "sqlite"
+brew "postgres"
+brew "mysql"
+brew "redis"
+
+# Heroku
+brew "heroku-toolbelt"
+
+cask "iterm2"
+cask "keepassx"
+cask "sublime-text-dev"
+cask "dropbox"
+cask "flux"
+cask "github-desktop"
+
+
+#mas "Evernote", id: 406056744
+#mas "Xcode", id: 4497799835
