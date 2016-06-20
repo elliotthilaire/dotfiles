@@ -34,7 +34,8 @@ cask "sublime-text-dev"
 cask "dropbox"
 cask "flux"
 cask "github-desktop"
-
+cask "caffeine"
+cask "caret"
 
 #mas "Evernote", id: 406056744
 #mas "Xcode", id: 4497799835
