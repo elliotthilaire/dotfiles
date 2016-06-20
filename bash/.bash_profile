@@ -1,25 +1,10 @@
-
-# Load RVM into a shell session *as a function*
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
 # Enable autojump
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
-
-# Open sublime in current directory
-alias sublime="~/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl ./"
 
 # Load bash-completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
-
-# Install applications into /Applications instead of ~/Applications
-export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-
-# Enable thefuck. To autocorrect bad commands.
-alias fuck='eval $(thefuck $(fc -ln -1)); history -r'
-alias oopsies='fuck'
-
 
 ##########
 # Change colour theme when sshing
@@ -34,11 +19,6 @@ function colorssh() {
 }
 alias ssh="colorssh"
 ##########
-
-# Add android tools to path (adb, etc.)
-export PATH=$PATH:~/Library/Android/sdk/platform-tools
-
-# Load in the git branch prompt script.
 
 # Reset
 Color_Off="\[\033[0m\]"       # Text Reset
@@ -74,4 +54,3 @@ export CLICOLOR=1
 #PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
 
 PS1='$(__git_ps1)\n\h:\W \u\$ '
-
