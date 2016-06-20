@@ -54,3 +54,6 @@ export CLICOLOR=1
 #PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
 
 PS1='$(__git_ps1)\n\h:\W \u\$ '
+
+
+source ~/.bashrc
