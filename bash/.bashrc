@@ -1,7 +1,10 @@
 
 ### Ruby Version Manager
-PATH=$PATH:$HOME/.rvm/bin 
+#PATH=$PATH:$HOME/.rvm/bin
 
+# chruby
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/auto.sh
 
 ### Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
