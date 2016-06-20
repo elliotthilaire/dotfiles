@@ -17,8 +17,8 @@ brew "aria2"
 
 # Ruby
 brew "chruby"
-brew "ruby-build"
- 
+brew "ruby-install"
+
 # Databases
 brew "sqlite"
 brew "postgres"
@@ -38,4 +38,4 @@ cask "caffeine"
 cask "caret"
 
 #mas "Evernote", id: 406056744
-#mas "Xcode", id: 4497799835
+mas "Xcode", id: 4497799835
