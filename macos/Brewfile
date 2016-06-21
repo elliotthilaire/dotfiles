@@ -19,6 +19,8 @@ brew "aria2"
 brew "chruby"
 brew "ruby-install"
 
+brew "python"
+
 # Databases
 brew "sqlite"
 brew "postgres"
@@ -28,6 +30,8 @@ brew "redis"
 # Heroku
 brew "heroku-toolbelt"
 
+cask "adobe-reader"
+cask "java"
 cask "iterm2"
 cask "keepassx"
 cask "sublime-text-dev"
@@ -36,6 +40,16 @@ cask "flux"
 cask "github-desktop"
 cask "caffeine"
 cask "caret"
+cask "spotify"
+cask "skype"
+cask "vlc"
+cask "slack"
+cask "firefox"
+cask "google-chrome"
+
+cask "ynab"
+cask "adobe-photoshop-lightroom441"
+cask "tunnelblick"
 
 #mas "Evernote", id: 406056744
-mas "Xcode", id: 4497799835
+#mas "Xcode", id: 4497799835
