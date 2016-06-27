@@ -14,6 +14,9 @@ brew "ncdu"
 brew "autojump"
 brew "stow"
 brew "aria2"
+brew "pandoc"
+brew "wget"
+brew "excersism"
 
 # Ruby
 brew "chruby"
@@ -46,6 +49,10 @@ cask "vlc"
 cask "slack"
 cask "firefox"
 cask "google-chrome"
+cask "wkhtmltopdf"
+cask "mactex"
+cask "atom"
+
 
 cask "ynab"
 cask "adobe-photoshop-lightroom441"
