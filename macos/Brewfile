@@ -1,28 +1,28 @@
-
 # Unix
-brew "ctags"
-brew "git"
 brew "openssl"
-brew "reattach-to-user-namespace"
-brew "the_silver_searcher"
-brew "tmux"
-brew "vim"
 brew "fish"
 brew "bash"
 brew "bash-completion"
 brew "ncdu"
 brew "autojump"
 brew "stow"
+brew "wget"
+brew "the_silver_searcher"
 brew "aria2"
 brew "pandoc"
-brew "wget"
-brew "excersism"
+brew "mpv"
 
-# Ruby
+# Developer tools
+brew "git"
 brew "chruby"
 brew "ruby-install"
-
 brew "python"
+brew "vim"
+brew "ctags"
+brew "tmux"
+brew "reattach-to-user-namespace"
+brew "heroku-toolbelt"
+brew "exercism"
 
 # Databases
 brew "sqlite"
@@ -30,9 +30,7 @@ brew "postgres"
 brew "mysql"
 brew "redis"
 
-# Heroku
-brew "heroku-toolbelt"
-
+# Applications
 cask "adobe-reader"
 cask "java"
 cask "iterm2"
@@ -52,11 +50,18 @@ cask "google-chrome"
 cask "wkhtmltopdf"
 cask "mactex"
 cask "atom"
-
-
-cask "ynab"
-cask "adobe-photoshop-lightroom441"
+cask "fritzing"
 cask "tunnelblick"
 
-#mas "Evernote", id: 406056744
-#mas "Xcode", id: 4497799835
+# License required
+cask "ynab"
+cask "adobe-photoshop-lightroom441"
+cask "microsoft-office-2011"
+
+# Mac App Store
+mas "Evernote", id: 406056744
+mas "Xcode", id: 4497799835
+mas "Numbers", id: 409203825
+mas "Keynote", id: 409183694
+mas "Pages", id: 409201541
+mas "Skitch", id: 425955336
