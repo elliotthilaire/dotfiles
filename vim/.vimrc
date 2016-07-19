@@ -15,7 +15,7 @@ Plugin 'gmarik/Vundle.vim'
 
 " My favourite plugins
 Plugin 'tpope/vim-rails'
-
+Plugin 't9md/vim-ruby-xmpfilter'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -98,3 +98,14 @@ noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
 
+" --------------------------------------------------------------------------
+" Enable vim-xmpfilter mappings only for Ruby
+" --------------------------------------------------------------------------
+
+autocmd FileType ruby nmap <buffer> <F4> <Plug>(xmpfilter-mark)
+autocmd FileType ruby xmap <buffer> <F4> <Plug>(xmpfilter-mark)
+autocmd FileType ruby imap <buffer> <F4> <Plug>(xmpfilter-mark)
+
+autocmd FileType ruby nmap <buffer> <F5> <Plug>(xmpfilter-run)
+autocmd FileType ruby xmap <buffer> <F5> <Plug>(xmpfilter-run)
+autocmd FileType ruby imap <buffer> <F5> <Plug>(xmpfilter-run)
