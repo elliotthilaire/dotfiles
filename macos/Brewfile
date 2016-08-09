@@ -1,3 +1,5 @@
+# Run with `brew bundle`
+
 # Unix
 brew "openssl"
 brew "fish"
@@ -52,6 +54,7 @@ cask "mactex"
 cask "atom"
 cask "fritzing"
 cask "tunnelblick"
+cask "postman" # api tool
 
 # License required
 cask "ynab"
