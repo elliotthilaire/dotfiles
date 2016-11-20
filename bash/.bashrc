@@ -1,9 +1,4 @@
 
-# chruby
-source /usr/local/opt/chruby/share/chruby/chruby.sh
-source /usr/local/opt/chruby/share/chruby/auto.sh
-
-
 # heroku toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 

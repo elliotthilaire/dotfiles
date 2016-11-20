@@ -12,7 +12,8 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
 
-
+# rbenv
+eval "$(rbenv init -)"
 
 ##########
 # Change colour theme when sshing
