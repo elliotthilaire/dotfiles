@@ -16,8 +16,7 @@ brew "mpv"
 
 # Developer tools
 brew "git"
-brew "chruby"
-brew "ruby-install"
+brew "rbenv"
 brew "python"
 brew "vim"
 brew "ctags"
@@ -25,6 +24,7 @@ brew "tmux"
 brew "reattach-to-user-namespace"
 brew "heroku-toolbelt"
 brew "exercism"
+brew "pgcli"
 
 # Databases
 brew "sqlite"
@@ -35,9 +35,16 @@ brew "redis"
 # Applications
 cask "adobe-reader"
 cask "java"
-cask "iterm2"
+
+cask "atom"
+cask "hyper"
+cask "postman" # api tool
+
+cask "firefox"
+cask "google-chrome"
+
+
 cask "keepassx"
-cask "sublime-text-dev"
 cask "dropbox"
 cask "flux"
 cask "github-desktop"
@@ -45,16 +52,12 @@ cask "caffeine"
 cask "caret"
 cask "spotify"
 cask "skype"
-cask "vlc"
 cask "slack"
-cask "firefox"
-cask "google-chrome"
+cask "vlc"
 cask "wkhtmltopdf"
 cask "mactex"
-cask "atom"
 cask "fritzing"
 cask "tunnelblick"
-cask "postman" # api tool
 
 # License required
 cask "ynab"
