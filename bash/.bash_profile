@@ -2,19 +2,6 @@
 # colours for terminal
 export CLICOLOR=1
 
-
-# autojump
-[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
-
-
-# bash-completion
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-  . $(brew --prefix)/etc/bash_completion
-fi
-
-# rbenv
-eval "$(rbenv init -)"
-
 ##########
 # Change colour theme when sshing
 # Inspiration from: https://gist.github.com/porras/5856906
@@ -28,7 +15,5 @@ function colorssh() {
 }
 alias ssh="colorssh"
 ##########
-
-
 
 source ~/.bashrc
