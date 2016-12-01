@@ -1,12 +1,14 @@
+set --export EDITOR vim
+set --export VISUAL atom
 
-# enable autojump
+# autojump
 [ -f /usr/local/share/autojump/autojump.fish ]; and . /usr/local/share/autojump/autojump.fish
 
 # rbenv
 status --is-interactive; and . (rbenv init -|psub)
 
-# used by tmuxinator
-set --export EDITOR vim
+# direnv
+eval (direnv hook fish)
 
 # work around to fix executable packages not working
 # when installed via yarn
