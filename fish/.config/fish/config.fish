@@ -1,6 +1,8 @@
 set --export EDITOR vim
 set --export VISUAL atom
 
+alias rspec="bundle exec rspec $argv"
+
 # autojump
 [ -f /usr/local/share/autojump/autojump.fish ]; and . /usr/local/share/autojump/autojump.fish
 
