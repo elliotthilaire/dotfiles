@@ -4,6 +4,8 @@ module.exports = {
     // if left empty, your system's login shell will be used by default
     shell: '/usr/local/bin/fish',
 
+    windowSize: [610, 350],
+
     // default font size in pixels for all tabs
     fontSize: 12,
 
