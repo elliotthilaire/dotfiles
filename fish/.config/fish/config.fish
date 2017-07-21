@@ -7,7 +7,7 @@ alias rspec="bundle exec rspec $argv"
 [ -f /usr/local/share/autojump/autojump.fish ]; and . /usr/local/share/autojump/autojump.fish
 
 # rbenv
-status --is-interactive; and . (rbenv init -|psub)
+status --is-interactive; and source (rbenv init -|psub)
 
 # direnv
 eval (direnv hook fish)
