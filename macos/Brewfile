@@ -9,24 +9,24 @@ brew "ncdu"
 brew "autojump"
 brew "stow"
 brew "wget"
-brew "the_silver_searcher"
-brew "aria2"
-brew "pandoc"
-brew "mpv"
+# brew "the_silver_searcher"
+# brew "aria2"
+# brew "pandoc"
+# brew "mpv"
 
 # Developer tools
 brew "git"
 brew "rbenv"
 brew "direnv"
-brew "python"
+brew "node"
+brew "yarn"
 brew "vim"
 brew "ctags"
 brew "tmux"
 brew "reattach-to-user-namespace"
-brew "heroku-toolbelt"
-brew "exercism"
-brew "node"
-brew "yarn"
+# brew "heroku-toolbelt"
+# brew "exercism"
+# brew "python"
 
 # Databases
 brew "sqlite"
@@ -36,41 +36,45 @@ brew "mysql"
 brew "redis"
 
 # Applications
-cask "adobe-reader"
-cask "java"
-
-cask "atom"
-cask "hyper"
-cask "postman" # api tool
-
 cask "firefox"
 cask "google-chrome"
 
+cask "atom"
+cask "hyper"
+# cask "docker"
+# cask "kitematic"
+# cask "adobe-reader"
+# cask "java"
 
-cask "keepassx"
-cask "dropbox"
-cask "flux"
-cask "github-desktop"
-cask "caffeine"
-cask "caret"
-cask "spotify"
-cask "skype"
-cask "slack"
-cask "vlc"
-cask "wkhtmltopdf"
-cask "mactex"
-cask "fritzing"
-cask "tunnelblick"
+
+cask "postman"
+cask "sourcetree"
+cask "macpass"
+# cask "keepassx"
+# cask "dropbox"
+# cask "flux"
+# cask "github-desktop"
+# cask "caffeine"
+# cask "caret"
+# cask "spotify"
+# cask "skype"
+# cask "slack"
+# cask "vlc"
+# cask "wkhtmltopdf"
+# cask "mactex"
+# cask "fritzing"
+# cask "tunnelblick"
+
 
 # License required
-cask "ynab"
-cask "adobe-photoshop-lightroom441"
-cask "microsoft-office-2011"
+# cask "ynab"
+# cask "adobe-photoshop-lightroom441"
+# cask "microsoft-office-2011"
 
 # Mac App Store
-mas "Evernote", id: 406056744
-mas "Xcode", id: 4497799835
-mas "Numbers", id: 409203825
-mas "Keynote", id: 409183694
-mas "Pages", id: 409201541
-mas "Skitch", id: 425955336
+# mas "Evernote", id: 406056744
+# mas "Xcode", id: 4497799835
+# mas "Numbers", id: 409203825
+# mas "Keynote", id: 409183694
+# mas "Pages", id: 409201541
+# mas "Skitch", id: 425955336
