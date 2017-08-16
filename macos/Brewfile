@@ -27,6 +27,7 @@ brew "reattach-to-user-namespace"
 # brew "heroku-toolbelt"
 # brew "exercism"
 # brew "python"
+# brew "elixir"
 
 # Databases
 brew "sqlite"
