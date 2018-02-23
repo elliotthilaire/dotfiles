@@ -17,3 +17,7 @@ eval (direnv hook fish)
 # https://github.com/yarnpkg/yarn/issues/1321
 # https://github.com/yarnpkg/yarn/issues/1389
 set --export PATH $PATH (yarn global bin)
+
+# Enable history in IEX through #erlang (OTP 20)
+# https://til.hashrocket.com/posts/is9yfvhdnp-enable-history-in-iex
+set --export ERL_AFLAGS "-kernel shell_history enabled"
