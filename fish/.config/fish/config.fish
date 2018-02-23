@@ -12,10 +12,8 @@ status --is-interactive; and source (rbenv init -|psub)
 # direnv
 eval (direnv hook fish)
 
-# work around to fix executable packages not working
-# when installed via yarn
-# https://github.com/yarnpkg/yarn/issues/1321
-# https://github.com/yarnpkg/yarn/issues/1389
+# To have access to Yarn’s executables globally
+# https://yarnpkg.com/en/docs/install
 set --export PATH $PATH (yarn global bin)
 
 # Enable history in IEX through #erlang (OTP 20)
