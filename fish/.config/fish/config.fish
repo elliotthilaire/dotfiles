@@ -4,7 +4,7 @@ set --export VISUAL atom
 alias rspec="bundle exec rspec $argv"
 
 # autojump
-[ -f /usr/local/share/autojump/autojump.fish ]; and . /usr/local/share/autojump/autojump.fish
+[ -f /usr/local/share/autojump/autojump.fish ]; and source /usr/local/share/autojump/autojump.fish
 
 # direnv
 eval (direnv hook fish)
