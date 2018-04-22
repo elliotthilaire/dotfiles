@@ -6,11 +6,11 @@ alias rspec="bundle exec rspec $argv"
 # autojump
 [ -f /usr/local/share/autojump/autojump.fish ]; and . /usr/local/share/autojump/autojump.fish
 
-# rbenv
-status --is-interactive; and source (rbenv init -|psub)
-
 # direnv
 eval (direnv hook fish)
+
+# asdf
+[ -f /usr/local/opt/asdf/asdf.fish ]; and source /usr/local/opt/asdf/asdf.fish
 
 # To have access to Yarn’s executables globally
 # https://yarnpkg.com/en/docs/install
