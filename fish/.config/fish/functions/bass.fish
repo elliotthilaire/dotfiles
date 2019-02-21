@@ -1,19 +1,27 @@
 function bass
-  if test $argv[1] = '-d'
+  set __bash_args $argv
+  if test "$__bash_args[1]_" = '-d_'
     set __bass_debug
-    set __bash_args $argv[2..-1]
-  else
-    set __bash_args $argv
+    set -e __bash_args[1]
   end
 
-  set -l __script (python ~/.config/fish/functions/__bass.py $__bash_args)
-  if test $__script = '__error'
+  python (dirname (status -f))/__bass.py $__bash_args | read -z __script
+  set __errorflag (string sub -s 1 -l 7 "$__script")
+  if test "$__script" = '__usage'
+    echo "Usage: bass [-d] <bash-command>"
+  else if test "x$__errorflag" = 'x__error'
     echo "Bass encountered an error!"
-  else
-    source $__script
-    if set -q __bass_debug
-      cat $__script
+    set __exitcode (string sub -s 9 "$__script")
+    set __exitcode (string trim $__exitcode)
+    if test -z $__exitcode
+      return 1
+    else
+      return $__exitcode
     end
-    rm -f $__script
+  else
+    echo -e "$__script" | source -
+    if set -q __bass_debug
+      echo "$__script"
+    end
   end
 end
