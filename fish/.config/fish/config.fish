@@ -12,6 +12,9 @@ eval (direnv hook fish)
 # asdf
 [ -f /usr/local/opt/asdf/asdf.fish ]; and source /usr/local/opt/asdf/asdf.fish
 
+# `rbenv init`
+#status --is-interactive; and source (rbenv init -|psub)
+
 # To have access to Yarn’s executables globally
 # https://yarnpkg.com/en/docs/install
 set --export PATH $PATH (yarn global bin)
